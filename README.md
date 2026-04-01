@@ -26,8 +26,8 @@ The files in this repository are meant to be integrated into disMech as a custom
    of each rod:
    - **Expand edges**: `kappa_bar *= (1 - stretch)`
    - **Shrink edges**: `kappa_bar *= (1 + stretch)`
-4. When `stretch > 0`, the lattice buckles into a **sphere-like** shape;
-   when `stretch < 0`, it forms a **saddle-like** shape.
+4. When **inner** and **outer** edges are expanding are shrinking, the lattice buckles into a **sphere-like** shape;
+   when **inner** and **outer** edges are shrinking are expanding, the lattice buckles into a **sphere-like** shape, it forms a **saddle-like** shape.
 5. Here, `stretch' denotes the end-to-end extension of an initially sinusoidal element. Decreasing the natural curvature (i.e., flattening the sinusoid) increases the end-to-end length.
 
 ## File Descriptions
