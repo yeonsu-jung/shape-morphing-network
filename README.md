@@ -6,11 +6,8 @@ saddle-like) by prescribing different growth rates to inner vs. outer edges.
 
 This repository accompanies the publication:
 
-Rotational 3D printing of active-passive filaments and lattices with programmable shape morphing
-
-Mustafa K Abdelrahman , Jackson Wilt , Yeonsu Jung , Rodrigo Telles , Gurminder Paink , Natalie M. Larson , Joanna Aizenberg, L. Mahadevan , Jennifer Lewis
-
-Proceedings of the National Academy of Sciences of the United States of America (2026)
+**Rotational 3D printing of active-passive filaments and lattices with programmable shape morphing**
+Mustafa K Abdelrahman , Jackson Wilt , Yeonsu Jung , Rodrigo Telles , Gurminder Paink , Natalie M. Larson , Joanna Aizenberg, L. Mahadevan , Jennifer Lewis. *Proceedings of the National Academy of Sciences of the United States of America* (2026)
 
 ## Overview
 
