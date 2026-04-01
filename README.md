@@ -68,7 +68,7 @@ Key parameters in `snake_lattice_params.yml`:
 | `n` | 10 | Number of nodes per rod. |
 | `step` | 1.0 | Lattice spacing. |
 | `amplitude` | 0.25 | Sinusoidal perturbation amplitude for initial rod shapes. |
-| `young_mod` | 2e11 | Young's modulus (Pa). |
+| `young_mod` | 1e6 | Young's modulus (Pa). |
 | `radius` | 1e-3 | Rod cross-section radius (m). |
 | `density` | 1000 | Material density (kg/m³). |
 | `dt` | 1e-5 | Simulation timestep (s). |

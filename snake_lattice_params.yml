@@ -4,7 +4,7 @@ density: 1000
 dt: 1e-5
 gravity_magnitude: 0.5
 k_scaler: 1e+7
-mu: 0.4
+mu: 0.0
 n: 10
 nu: 1e-3
 num_frames: 100
@@ -13,7 +13,7 @@ poisson: 0.5
 radius: 1e-3
 sim_time: 10
 step: 1
-stretch: -0.16999999999999948
+stretch: 0.1
 velocity_amplitude: 10
 viscosity: 0.1
-young_mod: 2e+11
+young_mod: 1e+6
