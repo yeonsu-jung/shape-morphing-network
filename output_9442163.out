@@ -1,0 +1,3022 @@
+Configuration Parameters:
+dt: 1e-05
+sim_time: 10
+n (ghost nodes per snake): 10
+radius: 0.001
+young_mod: 2e+11
+density: 1000
+poisson: 0.5
+mu (friction coefficient): 0.4
+viscosity: 0.1
+velocity_amplitude: 10
+k_scaler (contact stiffness for floor): 1e+07
+nu (friction coefficient for floor): 0.001
+num_side_vertices: 5
+step: 1
+amplitude (for sinusoidal perturbation): 0.25
+stretch (for snake lattice): -0.17
+gravity_magnitude: 0.5
+delta (contact distance for floor): 0.0001
+snakeLatticeController initialized with stretch: -0.17
+Using a headless simulation environment. Reporting back at an interval of 1000 msec.
+time: 0.0100 | iters: 0 | floor_con: 1 | f_min_dist: 0.000073
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0200 | iters: 0 | floor_con: 0 | f_min_dist: 0.000168
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0300 | iters: 0 | floor_con: 1 | f_min_dist: 0.000078
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0400 | iters: 0 | floor_con: 3 | f_min_dist: 0.000028
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0500 | iters: 0 | floor_con: 1 | f_min_dist: 0.000062
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0600 | iters: 0 | floor_con: 1 | f_min_dist: 0.000049
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0700 | iters: 0 | floor_con: 0 | f_min_dist: 0.000129
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000027
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.0900 | iters: 0 | floor_con: 0 | f_min_dist: 0.000169
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1000 | iters: 0 | floor_con: 1 | f_min_dist: 0.000088
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1100 | iters: 0 | floor_con: 1 | f_min_dist: 0.000054
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1200 | iters: 0 | floor_con: 4 | f_min_dist: 0.000017
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1300 | iters: 0 | floor_con: 0 | f_min_dist: 0.000234
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1400 | iters: 0 | floor_con: 0 | f_min_dist: 0.001060
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1500 | iters: 0 | floor_con: 0 | f_min_dist: 0.001385
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1600 | iters: 0 | floor_con: 0 | f_min_dist: 0.000425
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1700 | iters: 0 | floor_con: 2 | f_min_dist: 0.000067
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1800 | iters: 0 | floor_con: 1 | f_min_dist: 0.000078
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.1900 | iters: 0 | floor_con: 2 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2000 | iters: 0 | floor_con: 0 | f_min_dist: 0.000111
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2100 | iters: 0 | floor_con: 1 | f_min_dist: 0.000025
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2200 | iters: 0 | floor_con: 1 | f_min_dist: 0.000092
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2300 | iters: 0 | floor_con: 1 | f_min_dist: 0.000044
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2400 | iters: 0 | floor_con: 1 | f_min_dist: 0.000028
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2500 | iters: 0 | floor_con: 1 | f_min_dist: 0.000084
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2600 | iters: 0 | floor_con: 2 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2700 | iters: 0 | floor_con: 0 | f_min_dist: 0.000132
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2800 | iters: 0 | floor_con: 1 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.2900 | iters: 0 | floor_con: 0 | f_min_dist: 0.000196
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3000 | iters: 0 | floor_con: 0 | f_min_dist: 0.000254
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3100 | iters: 0 | floor_con: 0 | f_min_dist: 0.000202
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3200 | iters: 0 | floor_con: 1 | f_min_dist: 0.000079
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3300 | iters: 0 | floor_con: 1 | f_min_dist: 0.000049
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3400 | iters: 0 | floor_con: 1 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3500 | iters: 0 | floor_con: 1 | f_min_dist: 0.000026
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3600 | iters: 0 | floor_con: 1 | f_min_dist: 0.000085
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3700 | iters: 0 | floor_con: 1 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3800 | iters: 0 | floor_con: 1 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.3900 | iters: 0 | floor_con: 1 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4000 | iters: 0 | floor_con: 1 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4100 | iters: 0 | floor_con: 1 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4200 | iters: 0 | floor_con: 1 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4300 | iters: 0 | floor_con: 1 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4400 | iters: 0 | floor_con: 1 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4500 | iters: 0 | floor_con: 1 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4600 | iters: 0 | floor_con: 2 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4700 | iters: 0 | floor_con: 1 | f_min_dist: 0.000084
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4800 | iters: 0 | floor_con: 2 | f_min_dist: 0.000078
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.4900 | iters: 0 | floor_con: 1 | f_min_dist: 0.000090
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5000 | iters: 0 | floor_con: 2 | f_min_dist: 0.000046
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5100 | iters: 0 | floor_con: 2 | f_min_dist: 0.000020
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5200 | iters: 0 | floor_con: 3 | f_min_dist: 0.000025
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5300 | iters: 0 | floor_con: 2 | f_min_dist: 0.000022
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5400 | iters: 0 | floor_con: 3 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5500 | iters: 0 | floor_con: 3 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5600 | iters: 0 | floor_con: 3 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5700 | iters: 0 | floor_con: 4 | f_min_dist: 0.000019
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5800 | iters: 0 | floor_con: 4 | f_min_dist: 0.000026
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.5900 | iters: 0 | floor_con: 4 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6000 | iters: 0 | floor_con: 4 | f_min_dist: 0.000027
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6100 | iters: 0 | floor_con: 4 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6200 | iters: 0 | floor_con: 4 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6300 | iters: 0 | floor_con: 3 | f_min_dist: 0.000028
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6400 | iters: 0 | floor_con: 4 | f_min_dist: 0.000026
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000027
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6600 | iters: 0 | floor_con: 4 | f_min_dist: 0.000027
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6700 | iters: 0 | floor_con: 4 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.6900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000025
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000028
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000028
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.7900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.8900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 0.9900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000029
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.0900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.1900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.2900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.3900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.4900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.5900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6100 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6200 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6300 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6400 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6500 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6600 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6700 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6800 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.6900 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7000 | iters: 0 | floor_con: 5 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.7900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.8900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 1.9900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.0900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.1900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.2900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.3900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.4900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.5900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.6900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.7900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000030
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.8900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 2.9900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.0900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.1900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.2900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.3900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.4900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.5900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.6900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.7900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.8900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 3.9900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.0900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.1900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.2900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.3900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.4900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.5900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.6900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000031
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.7900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.8900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 4.9900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.0900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.1900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.2900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.3900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.4900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.5900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.6900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.7900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.8900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 5.9900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 5.0000 ms
+Entire timestepping. Time elapsed: 6.0000 ms
+time: 6.0000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.0900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.1900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.2900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.3900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4400 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4500 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4600 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4700 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4800 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.4900 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5000 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5100 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5200 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5300 | iters: 0 | floor_con: 6 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5400 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5500 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5600 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5700 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5800 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.5900 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6000 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6100 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6200 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6300 | iters: 0 | floor_con: 7 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6400 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6500 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6600 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6700 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6800 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.6900 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7000 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7100 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7200 | iters: 0 | floor_con: 7 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7300 | iters: 0 | floor_con: 8 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.7900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8200 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8300 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.8900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9200 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9300 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 6.9900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0200 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0300 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.0900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1200 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1300 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.1900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2200 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2300 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2400 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2500 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2600 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2700 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2800 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.2900 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3000 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 5.0000 ms
+Entire timestepping. Time elapsed: 6.0000 ms
+time: 7.3100 | iters: 0 | floor_con: 9 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3200 | iters: 0 | floor_con: 10 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3300 | iters: 0 | floor_con: 11 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3400 | iters: 0 | floor_con: 11 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3500 | iters: 0 | floor_con: 11 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3600 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3700 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3800 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.3900 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4000 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4100 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4200 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4300 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4400 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4500 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4600 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4700 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4800 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.4900 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5000 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5100 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5200 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5300 | iters: 0 | floor_con: 12 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5400 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5500 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5600 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5700 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5800 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.5900 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6000 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6100 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6200 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6300 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6400 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6500 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6600 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6700 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6800 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.6900 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7000 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7100 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7200 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7300 | iters: 0 | floor_con: 12 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7400 | iters: 0 | floor_con: 14 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7500 | iters: 0 | floor_con: 14 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7600 | iters: 0 | floor_con: 14 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7700 | iters: 0 | floor_con: 14 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7800 | iters: 0 | floor_con: 15 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.7900 | iters: 0 | floor_con: 15 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8000 | iters: 0 | floor_con: 15 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8100 | iters: 0 | floor_con: 17 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8200 | iters: 0 | floor_con: 19 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8300 | iters: 0 | floor_con: 21 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8400 | iters: 0 | floor_con: 22 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8500 | iters: 0 | floor_con: 25 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8600 | iters: 0 | floor_con: 27 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8700 | iters: 0 | floor_con: 27 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8800 | iters: 0 | floor_con: 27 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.8900 | iters: 0 | floor_con: 27 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9000 | iters: 0 | floor_con: 28 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9100 | iters: 0 | floor_con: 31 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9200 | iters: 0 | floor_con: 32 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9300 | iters: 0 | floor_con: 33 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9400 | iters: 0 | floor_con: 35 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9500 | iters: 0 | floor_con: 36 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9600 | iters: 0 | floor_con: 37 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9700 | iters: 0 | floor_con: 39 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9800 | iters: 0 | floor_con: 40 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 7.9900 | iters: 0 | floor_con: 40 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0000 | iters: 0 | floor_con: 42 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0100 | iters: 0 | floor_con: 42 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0200 | iters: 0 | floor_con: 43 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0300 | iters: 0 | floor_con: 45 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0400 | iters: 0 | floor_con: 45 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0500 | iters: 0 | floor_con: 45 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0600 | iters: 0 | floor_con: 45 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0700 | iters: 0 | floor_con: 45 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0800 | iters: 0 | floor_con: 46 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.0900 | iters: 0 | floor_con: 48 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1000 | iters: 0 | floor_con: 48 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1100 | iters: 0 | floor_con: 48 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1200 | iters: 0 | floor_con: 50 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1300 | iters: 0 | floor_con: 54 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1400 | iters: 0 | floor_con: 54 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1500 | iters: 0 | floor_con: 54 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1600 | iters: 0 | floor_con: 55 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1700 | iters: 0 | floor_con: 57 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1800 | iters: 0 | floor_con: 57 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.1900 | iters: 0 | floor_con: 58 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2000 | iters: 0 | floor_con: 59 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2100 | iters: 0 | floor_con: 60 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2200 | iters: 0 | floor_con: 66 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2300 | iters: 0 | floor_con: 70 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2400 | iters: 0 | floor_con: 76 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2500 | iters: 0 | floor_con: 79 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2600 | iters: 0 | floor_con: 80 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2700 | iters: 0 | floor_con: 81 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2800 | iters: 0 | floor_con: 82 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.2900 | iters: 0 | floor_con: 83 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3000 | iters: 0 | floor_con: 84 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3100 | iters: 0 | floor_con: 85 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3200 | iters: 0 | floor_con: 88 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3300 | iters: 0 | floor_con: 87 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3400 | iters: 0 | floor_con: 91 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3500 | iters: 0 | floor_con: 91 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3600 | iters: 0 | floor_con: 92 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3700 | iters: 0 | floor_con: 92 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3800 | iters: 0 | floor_con: 92 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.3900 | iters: 0 | floor_con: 94 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4000 | iters: 0 | floor_con: 97 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4100 | iters: 0 | floor_con: 98 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4200 | iters: 0 | floor_con: 98 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4300 | iters: 0 | floor_con: 98 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4400 | iters: 0 | floor_con: 100 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4500 | iters: 0 | floor_con: 100 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4600 | iters: 0 | floor_con: 101 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4700 | iters: 0 | floor_con: 101 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4800 | iters: 0 | floor_con: 102 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.4900 | iters: 0 | floor_con: 102 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5000 | iters: 0 | floor_con: 102 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5100 | iters: 0 | floor_con: 105 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5200 | iters: 0 | floor_con: 106 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5300 | iters: 0 | floor_con: 106 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5400 | iters: 0 | floor_con: 109 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5500 | iters: 0 | floor_con: 109 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5600 | iters: 0 | floor_con: 113 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5700 | iters: 0 | floor_con: 114 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5800 | iters: 0 | floor_con: 115 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.5900 | iters: 0 | floor_con: 118 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6000 | iters: 0 | floor_con: 122 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6100 | iters: 0 | floor_con: 122 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6200 | iters: 0 | floor_con: 124 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6300 | iters: 0 | floor_con: 127 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6400 | iters: 0 | floor_con: 131 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6500 | iters: 0 | floor_con: 134 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6600 | iters: 0 | floor_con: 139 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6700 | iters: 0 | floor_con: 142 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6800 | iters: 0 | floor_con: 146 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.6900 | iters: 0 | floor_con: 149 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7000 | iters: 0 | floor_con: 152 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7100 | iters: 0 | floor_con: 151 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7200 | iters: 0 | floor_con: 155 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7300 | iters: 0 | floor_con: 159 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7400 | iters: 0 | floor_con: 163 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7500 | iters: 0 | floor_con: 166 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7600 | iters: 0 | floor_con: 173 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7700 | iters: 0 | floor_con: 181 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7800 | iters: 0 | floor_con: 186 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.7900 | iters: 0 | floor_con: 191 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8000 | iters: 0 | floor_con: 196 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8100 | iters: 0 | floor_con: 202 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8200 | iters: 0 | floor_con: 210 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8300 | iters: 0 | floor_con: 212 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8400 | iters: 0 | floor_con: 219 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8500 | iters: 0 | floor_con: 226 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8600 | iters: 0 | floor_con: 233 | f_min_dist: 0.000038
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8700 | iters: 0 | floor_con: 241 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8800 | iters: 0 | floor_con: 247 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.8900 | iters: 0 | floor_con: 253 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9000 | iters: 0 | floor_con: 255 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9100 | iters: 0 | floor_con: 262 | f_min_dist: 0.000038
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9200 | iters: 0 | floor_con: 270 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9300 | iters: 0 | floor_con: 279 | f_min_dist: 0.000038
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9400 | iters: 0 | floor_con: 288 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9500 | iters: 0 | floor_con: 301 | f_min_dist: 0.000025
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9600 | iters: 0 | floor_con: 296 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9700 | iters: 0 | floor_con: 298 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9800 | iters: 0 | floor_con: 307 | f_min_dist: 0.000034
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 8.9900 | iters: 0 | floor_con: 323 | f_min_dist: 0.000024
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0000 | iters: 0 | floor_con: 313 | f_min_dist: 0.000032
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0100 | iters: 0 | floor_con: 315 | f_min_dist: 0.000038
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0200 | iters: 0 | floor_con: 322 | f_min_dist: 0.000027
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0300 | iters: 0 | floor_con: 318 | f_min_dist: 0.000033
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0400 | iters: 0 | floor_con: 319 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0500 | iters: 0 | floor_con: 321 | f_min_dist: 0.000038
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0600 | iters: 0 | floor_con: 330 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0700 | iters: 0 | floor_con: 338 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0800 | iters: 0 | floor_con: 334 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.0900 | iters: 0 | floor_con: 334 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1000 | iters: 0 | floor_con: 334 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1100 | iters: 0 | floor_con: 335 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1200 | iters: 0 | floor_con: 338 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1300 | iters: 0 | floor_con: 344 | f_min_dist: 0.000035
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1400 | iters: 0 | floor_con: 342 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1500 | iters: 0 | floor_con: 339 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1600 | iters: 0 | floor_con: 340 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.1900 | iters: 0 | floor_con: 341 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2000 | iters: 0 | floor_con: 343 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000037
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000040
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000036
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.2900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000039
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.3900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.4900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.5900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.6900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000041
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.7900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.8900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9100 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9200 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9300 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9400 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9500 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9600 | iters: 0 | floor_con: 345 | f_min_dist: 0.000042
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9700 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9800 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 9.9900 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+time: 10.0000 | iters: 0 | floor_con: 345 | f_min_dist: 0.000043
+Broadphase time: 0.0000 ms | Narrowphase time: 0.0000 ms
+Entire timestepping. Time elapsed: 0.0000 ms
+Completed simulation.
