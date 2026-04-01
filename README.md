@@ -63,7 +63,7 @@ Key parameters in `snake_lattice_params.yml`:
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `stretch` | -0.17 | Growth factor. Positive → sphere, negative → saddle. |
+| `stretch` | 0.1 | Growth factor. Positive → sphere, negative → saddle. |
 | `num_side_vertices` | 5 | Grid size (5×5 = 25 nodes, 40 edges). |
 | `n` | 10 | Number of nodes per rod. |
 | `step` | 1.0 | Lattice spacing. |
