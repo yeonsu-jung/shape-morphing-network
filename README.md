@@ -21,13 +21,14 @@ The files in this repository are meant to be integrated into disMech as a custom
 
 1. A square lattice of `num_side_vertices × num_side_vertices` nodes is constructed,
    with each edge represented by a sinusoidally-shaped elastic rod.
-2. Edges are classified as **inner** (expand) or **outer** (shrink).
+2. Edges are classified as **inner** or **outer**.
 3. A controller applies differential growth by scaling the natural curvature (`kappa_bar`)
    of each rod:
    - **Expand edges**: `kappa_bar *= (1 - stretch)`
    - **Shrink edges**: `kappa_bar *= (1 + stretch)`
 4. When `stretch > 0`, the lattice buckles into a **sphere-like** shape;
    when `stretch < 0`, it forms a **saddle-like** shape.
+5. Here, `stretch' denotes the end-to-end extension of an initially sinusoidal element. Decreasing the natural curvature (i.e., flattening the sinusoid) increases the end-to-end length.
 
 ## File Descriptions
 
